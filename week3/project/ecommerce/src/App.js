@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Categories from "./Components/Categories";
 import Products from "./Components/Products";
 import Product from "./Components/Product";
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar";
 import Favorites from "./Components/Favorites";
 import { FavoritesProvider } from "./Components/FavoritesContext";
 
