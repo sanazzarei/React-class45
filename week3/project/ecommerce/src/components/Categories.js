@@ -19,7 +19,7 @@ export default function Categories({ selectedCategory, categoryClick }) {
   }
 
   if (error) {
-    return <div>Sorry, we have an error: {error}</div>;
+    console.error("Error fetching categories:", error);
   }
 
   return (
